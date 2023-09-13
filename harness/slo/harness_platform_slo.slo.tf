@@ -4,15 +4,15 @@ resource "harness_platform_slo" "slo" {
   ]
   org_id     = "cvng"
   project_id = "ecommerce"
-  identifier = "slo"
+  identifier = "SLO_Terraform"
   request {
-    name              = "slo"
-    description       = "description"
+    name              = "SLO Terraform"
+    description       = "SLO as Code"
     tags              = ["foo:bar", "bar:foo"]
-    user_journey_refs = ["one", "two"]
+    user_journey_refs = ["End-to-End"]
     slo_target {
       type                  = "Calender"
-      slo_target_percentage = 98
+      slo_target_percentage = 97
       spec                  = jsonencode({
         type = "Monthly"
         spec = {
