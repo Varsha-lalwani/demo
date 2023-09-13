@@ -12,7 +12,7 @@ resource "harness_platform_slo" "SLO_Terraform" {
     user_journey_refs = ["End-to-End"]
     slo_target {
       type                  = "Calender"
-      slo_target_percentage = 97
+      slo_target_percentage = 96
       spec                  = jsonencode({
         type = "Monthly"
         spec = {
