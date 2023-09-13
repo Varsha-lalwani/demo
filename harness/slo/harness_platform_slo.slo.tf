@@ -1,4 +1,4 @@
-resource "harness_platform_slo" "slo" {
+resource "harness_platform_slo" "SLO_Terraform" {
   depends_on = [
     harness_platform_monitored_service.service_ref_environment_ref,
   ]
@@ -28,7 +28,7 @@ resource "harness_platform_slo" "slo" {
       serviceLevelIndicators    = [
         {
           name       = "name"
-          identifier = "slo"
+          identifier = "SLO_Terraform"
           type       = "Availability"
           spec       = {
             type = "Threshold"
