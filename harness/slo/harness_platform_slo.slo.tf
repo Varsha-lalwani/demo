@@ -34,8 +34,8 @@ resource "harness_platform_slo" "SLO_Terraform" {
             type = "Threshold"
             spec = {
               metric1        = "prometheus_metric"
-              thresholdValue = 30
-              thresholdType  = ">"
+              thresholdValue = 12
+              thresholdType  = "<="
             }
           }
           sliMissingDataType = "Good"
