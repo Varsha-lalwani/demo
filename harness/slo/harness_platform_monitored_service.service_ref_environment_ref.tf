@@ -10,8 +10,8 @@ resource "harness_platform_monitored_service" "service_ref_environment_ref" {
     name = "service_ref_environment_ref"
     type = "Application"
     description = "new_description_new"
-    service_ref = "service_ref"
-    environment_ref = "environment_ref"
+    service_ref = "terraform_service"
+    environment_ref = "terraform_env"
     tags = ["foo:bar", "bar:foo"]
     health_sources {
       name = "prometheus"
