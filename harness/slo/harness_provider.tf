@@ -6,7 +6,7 @@ terraform {
   }
 }
   provider "harness" {
-    endpoint         = "https://app.harness.io"
-    account_id       = "vpCkHKsDSxK9_KYfjCTMKA"
-    platform_api_key = "pat.vpCkHKsDSxK9_KYfjCTMKA.650067f377e8f74cceca10fd.ANxs4FF6yOgfpWEABrOp"
+    endpoint         = "https://stress.harness.io"
+    account_id       = "-k53qRQAQ1O7DBLb9ACnjQ"
+    platform_api_key = "pat.-k53qRQAQ1O7DBLb9ACnjQ.65112df45128e32db3c56cfe.AXZpLwIpujEEE0r3fil0"
   }
